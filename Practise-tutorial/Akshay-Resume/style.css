@@ -1,0 +1,877 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}   
+.banner{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(202, 223, 230);
+}
+.nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: #fff;
+    /* opacity: 0.7; */
+    justify-content: space-between;
+    z-index: 1;
+    /* border: 2px solid red; */
+}
+.nav ul li{
+    display: inline;
+    margin:15px;
+}
+.nav img{
+    position: relative;
+    left: 40px;
+}
+.nav ul{
+    position: absolute;
+    right: 100px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.res{
+    position: absolute;
+  
+    /* border: 2px solid red; */
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+ 
+}
+.res ul li a{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    cursor:default;
+}
+.btn{
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    height: 39px;
+    width:5px;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    /* display: none; */
+    /* transition: left 0.4s ease; */
+}
+.btn span {
+    position: relative;
+    color: white;
+    top: -19px;
+    left:-14px;
+    font-size: 5px;
+    line-height: 40px;
+}
+img{
+    width: 10%;
+    cursor: pointer;
+}
+.banner-side-img{
+    position: relative;
+    /* border: 2px solid red; */
+    justify-content: center;
+    text-align: center;
+    width: 88%;
+    height: 500px;
+    top: 20px;
+    margin-left: 6%;
+}
+/* .banner-side-img .about{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: -50%;
+    padding-right: 20%;
+    border: 2px solid red;
+} */
+.banner-side-img .about h1{
+    position: absolute;
+    top: 40%;
+    font-size: 45px;
+}
+.banner-side-img img{
+    position: absolute;
+    /* border: 2px solid black; */
+    width: 30%;
+    height: 70%;
+    right: 7%;
+    top: 23%;
+    border-radius: 10px;
+}
+.follow{
+    position: absolute;
+    bottom: 60px;
+    left: 7%;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 25px;
+    width: 28px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  /* instagram */
+  .fa-instagram {
+    background: linear-gradient(rgba(81, 91, 212),rgba(129, 52, 175),rgba(221, 42, 123),rgba(245, 133, 41));
+    color: white;
+  }
+
+  /* linkedin */
+  .fa-linkedin {
+    background: #0072b1;
+    color: white;
+  }
+
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.detail{
+    position: relative;
+    /* border: 2px solid red; */
+    background: white;
+    width: 98.5%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    top: 40px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    /* z-index: -1; */
+    /* margin: 20px; */
+}.detail h2{
+    position: relative;
+    top: 42px;
+    font-size: 60px;
+}
+.detail .background{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 50%;
+    left: 6%;
+    margin-top: 15%;
+    /* height: 20px ; */
+    /* left: 50px; */
+}
+.detail .background h3{
+    position: absolute;
+}
+.detail .background p{
+    /* border: 2px solid red; */
+    position: relative;
+    text-align: justify; /* For Edge */
+    text-align-last: justify;
+    margin-top: 40px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.detail .skill{
+    position: absolute;
+    right: 90px; 
+    margin-top: 15%;
+    width: 20%;
+    /* border: 2px solid red; */
+}
+.detail .skill h3{
+    position: absolute;
+}
+.detail .skill p{
+    /* border: 2px solid red; */
+    position: relative;
+    text-align: justify;
+    text-align-last: justify;
+    margin-top: 40px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.deep-detail{
+    background: rgb(209, 211, 212);
+    width: 100%;
+    height: 180vh;
+    /* border: 2px solid red; */
+
+}
+.deep-detail h3{
+    position: relative;
+    width: 30%;
+    left: 6%;
+    /* border: 2px solid red; */
+    top: 18%;
+}
+.deep-detail .university-1{
+    position: relative;
+    left: 40%;
+    width: 50%;
+    /* border: 2px solid red; */
+    top: 18%;
+    line-height: 35px;
+}
+.deep-detail .university-2{
+    /* border: 2px solid red; */
+    width: 50%;
+    position: relative;
+    left: 40%;
+    width: 50%;
+    /* border: 2px solid red; */
+    top: 23%;
+    line-height: 35px;
+}
+.deep-detail .work h3{
+    position: relative;
+    /* border: 2px solid red;    */
+    margin-top: 32%;
+    width: 30%;
+}
+.deep-detail .work .work-1{
+    position: relative;
+    left: 40%;
+    width: 50%;
+    /* border: 2px solid red; */
+    top: 20%;
+    line-height: 35px;
+}
+.deep-detail .work .work-2{
+    position: absolute;
+    left: 40%;
+    width: 50%;
+    /* border: 2px solid red; */
+    margin-top: 5%;    
+    line-height: 35px;
+}
+.quote{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    /* border: 2px solid red; */
+    /* background: rgb(20, 32, 206); */
+    background: rgb(105, 33, 173);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.quote p{
+    position: relative;
+    /* border: 2px solid red; */
+    top: 32%;
+    font-size: 30px;
+    width: 80%;
+    left: 10%;
+    color: white;
+    /* padding: 200px; */
+}
+.talk{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    background: rgb(243, 238, 238);
+}
+.talk h3{
+    position: relative;
+    top: 35%;
+    left: 6%;
+    width: 30%;
+    font-size: 60px;
+    /* border: 2px solid red; */
+}
+.talk .talk-1{
+    position: relative;
+    left: 50%;
+    /* border: 2px solid red; */
+    width: 10%;
+    top: 23%;
+    line-height: 30px;
+
+}
+.talk .talk-1 h4{
+    line-height: 80px;
+    font-size: 25px;
+}
+.talk .talk-1 li{
+    position: relative;
+    list-style: none;
+    left:5%;
+}
+.talk .talk-1 li a{
+    color: black;
+    text-decoration: none
+}
+.talk .talk-2{
+    position: relative;
+    left: 67%;
+    /* border: 2px solid red; */
+    width: 15%;
+    top: -9%;
+    line-height: 30px;
+}
+.talk .talk-2 h4{
+    line-height: 80px;
+    font-size: 25px;
+}
+.talk .talk-2 li{
+    position: relative;
+    list-style: none;
+    left:5%;
+}
+.talk .talk-2 li a{
+    color: black;
+    text-decoration: none
+}
+.footer {
+    display: flex;
+    position: relative;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(199, 210, 214);
+    text-align: center;
+    justify-content: space-between;
+ }
+ .footer p{
+    position: relative;
+    top: 20px;
+    left: 30px;
+ }.footer .name span{
+    position: relative;
+    top: 20px;
+    right: 30px;
+ }
+
+@media (max-width:1050px){
+    .banner-side-img .about h1{
+        position: absolute;
+        top: 40%;
+        font-size:40px;
+    }
+    .banner-side-img img{
+        position: absolute;
+        border: 2px solid black;
+        width: 32%;
+        height: 55%;
+        right: 7%;
+        top: 27%;
+        border-radius: 10px;
+    }
+    
+    .deep-detail .work h3{
+        position: relative;
+        /* border: 2px solid red;    */
+        margin-top: 40%;
+        width: 30%;
+    }
+    .talk{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 100vh;
+        background: rgb(243, 238, 238);
+    }
+    .talk h3{
+        position: relative;
+        top: 35%;
+        left: 6%;
+        width: 30%;
+        font-size: 40px;
+        /* border: 2px solid red;    */
+    }
+    .talk .talk-1{
+        position: relative;
+        left: 50%;
+        /* border: 2px solid red; */
+        width: 10%;
+        top: 28%;
+        line-height: 30px;
+    
+    } 
+    .talk .talk-1 h4{
+        line-height: 80px;
+        font-size: 17px;
+    }
+    .talk .talk-2{
+        position: relative;
+        left: 70%;
+        /* border: 2px solid red; */
+        width: 10%;
+        top: -4%;
+        line-height: 30px;
+    }
+    .talk .talk-2 h4{
+        line-height: 80px;
+        font-size: 16px;
+    }
+}
+ @media (max-width:750px){
+    .banner{
+        /* border: 2px solid red; */
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(202, 223, 230);
+    }
+    .nav ul li{
+        display: inline;
+        margin:5px;
+    }
+    .nav img{
+        position: relative;
+        left: 40px;
+    }
+    .nav ul{
+        position: absolute;
+        right: 60px;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    .deep-detail .university-2{
+        /* border: 2px solid red; */
+        width: 50%;
+        position: relative;
+        left: 40%;
+        width: 50%;
+        top: 20%;
+        line-height: 35px;
+    }
+    .quote p{
+        position: relative;
+        /* border: 2px solid red; */
+        top: 20%;
+        font-size: 30px;
+        width: 80%;
+        left: 10%;
+        color: white;
+    }
+  
+    .talk h3{
+        position: relative;
+        top: 35%;
+        left: 6%;
+        width: 30%;
+        font-size: 30px;
+        /* border: 2px solid red;    */
+    }
+    .talk .talk-1{
+        position: relative;
+        left: 45%;
+        /* border: 2px solid red; */
+        width: 10%;
+        top: 26%;
+        line-height: 20px;
+    
+    } 
+    .talk .talk-1 h4{
+        line-height: 80px;
+        font-size: 12px;
+    }
+    .talk .talk-2{
+        position: relative;
+        left: 70%;
+        /* border: 2px solid red; */
+        width: 10%;
+        top: 0%;
+        line-height: 20px;
+    }
+    .talk .talk-2 h4{
+        line-height: 80px;
+        font-size: 12px;
+    }
+ }
+ @media (max-width:850px){
+     .banner{
+         background: white;
+     }
+     .banner-side-img{
+        background-image:url(img/Profile.jpg);
+         background-position: center;
+         background-size: cover;
+         /* color: black; */
+         /* opacity: 0.6; */
+     }
+     .banner-side-img .about h1{
+        position: absolute;
+        top: 60%;
+        /* border: 2px solid red; */
+        font-size: 30px;
+        left: 30%;
+    }
+    .banner-side-img img{
+        position: absolute;
+        border: 2px solid black;
+        width: 30%;
+        height: 70%;
+        right: 7%;
+        top: 23%;
+        border-radius: 10px;
+        display: none;
+    }
+    .follow{
+        position: absolute;
+        bottom: 30px;
+        left: 31%;
+    }
+    /* Style all font awesome icons */
+    .fa {
+        padding: 20px;
+        font-size: 15px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+ }
+ @media(max-width:550px){
+    .nav{
+        position: fixed;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        background: #fff;
+        justify-content: space-between;
+        z-index: 1;
+        /* border: 2px solid red; */
+    }
+    /* .nav ul li{
+        display: inline;
+        margin:15px;
+    } */
+    .nav img{
+        position: relative;
+        left: 40px;
+    }
+    img{
+        width: 15%;
+        cursor: pointer;
+    }
+    /* .nav ul{
+        position: absolute;
+        right: 50px;
+    } */
+    .nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        /* border:  2px solid red; */
+        display: none;
+    }
+    
+    .btn{
+    position: relative;
+    top: 1px;
+    margin-right: 32px;
+    height: 28px;
+    width:33px;
+    background: #1b1b1b;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    /* display: none; */
+    /* transition: left 0.4s ease; */
+}
+    .btn span {
+        position: relative;
+        color: white;
+        top: -21px;
+        left: -8px;
+        font-size: 20px;
+        line-height: 40px;
+}
+    .banner-side-img .about h1{
+        position: absolute;
+        top: 70%;
+        /* border: 2px solid red; */
+        font-size: 15px;
+        left: 29%;
+    }
+    .follow{
+        position: absolute;
+        bottom: 60px;
+        left: 27%;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 10px;
+        width: 6px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        padding: 15px;
+      }
+      .detail{
+        position: relative;
+        /* border: 2px solid red; */
+        background: white;
+        width: 98%;
+        height: 100vh;
+        top: 40px;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    
+    }
+    .detail h2{
+        position: relative;
+        top: 30px;
+        font-size: 30px;
+    }
+    .detail .background{
+        /* border: 2px solid red; */
+        position: absolute;
+        width: 85%;
+        /* left: 2%; */
+        margin: 0px -17px;
+        margin-top: 22%;
+    }
+    .detail .background h3{
+        position: absolute;
+        font-size: 25px;
+    }
+    .detail .background p{
+        /* border: 2px solid red; */
+        /* position: relative; */
+        text-align: justify; 
+        text-align-last: justify;
+        margin-top: 45px;
+        line-height: 25px;
+        font-size: 15px;
+        left: 10px;
+    }
+    .detail .skill{
+        position: relative;
+        left: 0px; 
+        margin-top:380px;
+        width: 20%;
+        /* border: 2px solid red;   */
+    }
+    .detail .skill h3{
+        position: absolute;
+        /* border: 2px solid red;  */
+        width: 300%; 
+        left: 0px;
+
+    }
+    .detail .skill p {
+        top: 43px;
+        left: 4px;
+    }
+
+    .deep-detail{
+        background: rgb(209, 211, 212);
+        width: 100%;
+        height: 220vh;
+        /* border: 2px solid red; */
+    
+    }
+    .deep-detail h3{
+        position: relative;
+        width: 70%;
+        left: 12%;
+        /* border: 2px solid red; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        top: 10%;
+        font-size: 28px;
+    }
+    .deep-detail .university-1{
+        position: relative;
+        left: 4%;
+        width: 80%;
+        /* border: 2px solid red; */
+        top: 13%;
+        line-height: 35px;
+    }
+    .deep-detail .university-2{
+        width: 50%;
+        position: relative;
+        left: 4%;
+        width: 80%;
+        /* border: 2px solid red; */
+        top: 16%;
+        line-height: 35px;
+    }
+    .deep-detail .work{
+        position: relative;
+        top:10px;
+    }
+    .deep-detail .work h3{
+        position: relative;
+        /* border: 2px solid red;    */
+        margin-top: 350px;
+        width: 85%;
+        left:17px;
+        font-size: 25px;
+    }
+    .deep-detail .work .work-1{
+        position: relative;
+        left: 4%;
+        width: 80%;
+        /* border: 2px solid red; */
+        top: 53px;
+        line-height: 35px;
+    }
+    .deep-detail .work .work-2{
+        width: 50%;
+        position: relative;
+        left: 4%;
+        width: 80%;
+        /* border: 2px solid red; */
+        top: 70px;
+        line-height: 35px;
+    } 
+    .quote p{
+        position: relative;
+        /* border: 2px solid red; */
+        top: 80px;
+        font-size: 20px;
+        width: 80%;
+        left: 10%;
+        color: white;
+    }
+    .talk h3{
+        position: relative;
+        top: 18%;
+        left: 67px;
+        width: 70%;
+        font-size: 35px;
+        justify-content: center;
+        text-align: center;
+        /* border: 2px solid red;       */
+    }
+    .talk .talk-1{
+        position: relative;
+        left: 35px;
+        /* border: 2px solid red; */
+        width: 110px;
+        top: 26%;
+        line-height: 20px;
+    
+    } 
+    .talk .talk-1 h4{
+        line-height: 60px;
+        font-size: 25px;
+    }
+    .talk .talk-2{
+        position: relative;
+        left:50%;
+        /* border: 2px solid    red; */
+        width: 110px;
+        top: 9px;
+        line-height: 20px;
+    
+    }
+    .talk .talk-2 h4{
+        line-height: 80px;
+        font-size: 25px;
+    }
+    .footer p{
+        position: relative;
+        top: 22px;
+        left: 30px;
+        font-size: 12px;
+
+     }.footer .name span{
+        position: relative;
+        top: 20px;
+        right: 30px;
+        font-size: 12px;
+     }
+ }
+ @media (max-width:400px){
+    .nav{
+        position: absolute;
+        display: flex;
+        width: 98%;
+        align-items: center;
+        background: #fff;
+        justify-content: space-between;
+        z-index: 1;
+        /* border: 2px solid red; */
+    }
+    
+    .res{
+        position: absolute;
+        width: 100%;
+        border: 2px solid red;
+        justify-content: center;
+        text-align: center;
+        line-height: 40px;
+        height: 200px;
+        background-color: rgba(37, 36, 36, 0.219);
+    }
+    .res ul li a{
+        list-style: none;
+        text-decoration: none;
+        color:black;
+        font-size: 20px;
+    }
+    .res{
+        display: none;
+    }
+    [id^=btn]:checked + .res{
+        display: block;
+    }
+    .talk .talk-2{
+        position: relative;
+        left: 35px;
+        /* border: 2px solid red; */
+        width: 110px;
+        top: 30%;
+        line-height: 25px;
+    
+    }
+    .talk .talk-2 h4{
+        line-height: 60px;
+        font-size: 25px;
+    }
+    .footer p{
+        position: relative;
+        top: 11px;
+        left: 40px;
+        height: 13px    ;
+        width: 98%;
+        font-size: 12px;
+        /* border: 2px solid red; */
+
+     }.footer .name span{
+        position: relative;
+        display: inline-flex;
+        top: 30px;
+        right: 130%;
+        width: 144%;
+        border: 2px solid red;
+        font-size: 12px;
+     }
+ }

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Side-Menu</title>
+
+    </head>
+
+    <body>
+        <div class="block">
+            <span class="icon1">
+                <i class="fas fa-home"></i>
+                <!-- </span><br> -->
+                <!-- <span class="icon1"> -->
+                <i class="fas fa-filter"></i>
+                <!-- </span> -->
+                <!-- <span class="icon1"> -->
+                <i class="fab fa-servicestack"></i>
+                <!-- </span><br> -->
+                <!-- <span class="icon1"> -->
+                <i class="fa fa-briefcase"></i>
+                <!-- </span><br> -->
+                <!-- <span class="icon1"> -->
+                <i class="far fa-eye"></i>
+                <!-- </span><br> -->
+                <!-- <span class="icon1"> -->
+                <i class="fas fa-asterisk"></i>
+                <!-- </span><br> -->
+                <!-- <span class="icon1"> -->
+                <i class="far fa-comment-dots"></i>
+            </span>
+            <hr>
+        </div>
+        <div class="btn">
+            <span class="fas fa-bars"></span>    
+        </div>
+        <nav class="sidebar">
+            <div class="text">Side Menu</div>
+            <ul>
+                <li><a href="#">
+                        <span class="icon"><i class="fas fa-home"></i></span>Dashboard</a></li>
+                <li><a href="#" class="feat-btn">
+                        <span class="icon"><i class="fas fa-filter"></i></span>Features
+                        <span class="fas fa-caret-down first"></span>
+                    </a>
+                    <ul class="feat-show">
+                        <li><a href="#">Pages</li>
+                        <li><a href="#">Elements</a></li>
+                    </ul>
+                </li>
+                <li><a href="# " class="serv-btn">
+                        <span class="icon"><i class="fab fa-servicestack"></i></span>Services
+                        <span class="fas fa-caret-down second"></span>
+                    </a>
+                    <ul class="serv-show">
+                        <li><a href="#">App Design</a></li>
+                        <li><a href="#">Web Design</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><span class="icon"><i class="fa fa-briefcase"></i></span>Portfolio</a></li>
+                <li><a href="#"><span class="icon"><i class="far fa-eye"></i></span>Overview</a></li>
+                <li><a href="#"><span class="icon"><i class="fas fa-asterisk"></i></span>Shortcuts</a></li>
+                <li><a href="#"><span class="icon"><i class="far fa-comment-dots"></i></span>Feedback</a></li>
+            </ul>
+        </nav>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script>
+            $('.btn').click(function () {
+                $(this).toggleClass("click");
+                $('.sidebar').toggleClass("show");
+                $('.block').toggleClass("click");
+            });
+            $('.icon1').click(function () {
+                $('.sidebar').toggleClass("show");
+                $('.btn').toggleClass("click");
+                $('.block').toggleClass("click");
+            });
+
+            $('.feat-btn').click(function () {
+                $('nav ul .feat-show').toggleClass("show");
+                $('nav ul .first').toggleClass("rotate");
+
+            });
+            $('.serv-btn').click(function () {
+                $('nav ul .serv-show').toggleClass("show1");
+                $('nav ul .second').toggleClass("rotate");
+            });
+            $('nav ul li').click(function () {
+                $(this).addClass("active").siblings().removeClass("active");
+            });
+            $('nav ul li.icon').click(function () {
+                $(this).addClass("see").siblings().removeClass("see");
+            });
+        </script>
+
+    </body>
+
+</html>

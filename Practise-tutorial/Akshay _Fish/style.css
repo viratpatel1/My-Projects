@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    background-image: url(img/Fish-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 10px;
+    justify-content: space-between;
+    /* background: rgb(97, 156, 173);
+    opacity: 0.5; */
+}
+.logo{
+    position: relative;
+    filter: invert(-1);
+    width: 7%;
+    cursor: pointer;
+    align-items: center;
+    left: 50px;
+}
+.navbar ul li{
+    position: relative;
+    display: inline-block;
+    margin: 25px;
+    right: 50px;
+}
+.navbar ul li a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 5px;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    border-radius: 20px;
+}
+.content{
+    width: 100%;    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+    text-align: center;
+    color:black;
+}
+.fish-banner{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.fish-banner::before    {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.15)),url(img/2.jpg);
+    /* background-image: url(img/fish-banner.jpg);  */
+    content: '';
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    opacity:0.8;
+}
+button{
+    padding: 5px 20px;
+    background-color: rgb(0, 153, 255);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card-img-top{
+    cursor: pointer;
+}

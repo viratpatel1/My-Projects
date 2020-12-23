@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(120, 103, 146);
+    color: white;
+    margin: 0px 0px;
+    padding: 0px;
+    background-image: url();
+    height:200px;
+    
+}
+.left{
+    position: absolute;
+    /* border: 2px solid red; */
+    display:flex;
+    top: 10px;
+    left: 60px;
+}
+.left img{
+    width: 42px;
+}
+
+.mid{
+    display:flex;
+    width: 55%;
+    margin:6px auto;
+    overflow: auto;
+    /* border:2px solid yellow; */
+}
+/* .right{
+    position: absolute;
+    display: inline-block;
+    border: 2px solid white;
+    right: 60px;
+    top: 22px;
+} */
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 25px;
+}
+.navbar li a:hover{
+    color: rgb(199, 22, 16);
+    background-color: grey;
+    border-radius: 22px;
+}
+.wed p{
+    /* border: 2px solid white; */
+    text-align: center;
+    width: 182px;
+    display: block;
+    margin: 286px 947px;
+    font-size: 200%;
+}
+.wed p:hover{
+    color: greenyellow;
+    background-color: grey;
+    border-radius: 22px;
+}
+.pre p{
+    /* border: 2px solid white; */
+    text-align: center;
+    width: 22%;
+    margin: -271px 779px;
+    font-size: 200%;
+}
+.pre p:hover{
+    color: greenyellow;
+    background-color: grey;
+    border-radius: 22px;
+}
+.fashion p{
+    /* border: 2px solid white; */
+    text-align: center;
+    width: 33%;
+    margin: 283px 810px;
+    font-size: 200%;
+
+}
+.fashion p:hover{
+    color: greenyellow;
+    background-color: grey;
+    border-radius: 22px;
+}
+.event p{
+    /* border: 2px solid white; */
+    text-align: center;
+    display: block;
+    width: 23%;
+    margin: -267px 777px;
+    font-size: 200%;
+}
+.event p:hover{
+    color: greenyellow;
+    background-color:grey;
+    border-radius: 22px;
+}
+/* .camera{
+    display: flex;
+    justify-content: center; 
+    align-items: left;
+}
+.camera img{
+    height: 265px;
+    margin: 6px 11px;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navbar{
+    background-color: #292828;
+    border-radius:4px ;
+    margin:-8px;
+} 
+a{
+    float: left;
+    text-decoration: none;
+    padding-left: 37px;
+    margin: 14px 31px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 3px 155px;
+}
+.navbar li a{
+    color: white;
+    margin: 22px 3px;
+}
+.navbar li a:hover{
+    background-color: lightblue;
+    border-radius: 8px;
+}
+#search{
+    border-radius: 8px;
+    margin: 24px 18px;
+    width: 175px;
+    padding: 3px;
+}  */

@@ -1,0 +1,89 @@
+#about{
+  padding: 187px 26px;
+  /* border: 2px solid   red; */
+    width: 30%;
+    height: 30%;
+    /* margin: auto; */
+    margin: 155px 430px;
+}
+
+#about img{
+    position: absolute;
+    padding: 10px 17px;
+    /* margin-top: 77px;
+    margin-left: 25px; */
+    top: 30%;
+    left: 42%;
+}    
+img{
+    text-align: center;
+}
+#about::before{
+    content: "";
+    background:url(/static/img/white-lens.jpg) no-repeat center center/cover ;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#certificate h1{
+      /* padding: 10px 17px; */
+      margin-top: -140px;
+      margin-left: 0px;
+
+
+    /* border: 2px solid red; */
+}
+h1{
+    text-align: center;
+}
+
+
+.fa {
+    padding: 10px 8px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    /* margin: 8px 5px; */
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.5;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    /* margin-left: 48px; */
+
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* Youtube */
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  /* Instagram */
+  .fa-instagram {
+    background: red;
+    color: white;
+  }
+#about a{
+  margin: 6px 8px;
+  padding: 13px 10px;
+}

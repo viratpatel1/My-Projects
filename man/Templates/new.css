@@ -1,0 +1,265 @@
+/* *{
+    color: tomato;
+    } */
+#navbar{
+    display: flex;
+    position: absolute;
+    height: 77px;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+#navbar .name{
+    color: greenyellow;
+    cursor: pointer;
+    /* margin: 0px 50px; */
+    margin: 13px 51px;
+    /* padding: 13px 18px; */
+    
+    padding: 0px 18px;  
+    font-size: 2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#navbar .name span{
+    color: teal;
+}
+#navbar .name:hover{
+    color: greenyellow;
+    background-color: grey;
+    border-radius: 30px;
+
+}
+
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    /* color: white; */
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0px 12px;
+
+}
+#navbar ul li a{
+    margin: 4px 4px;
+    font-size: 1.3rem;
+    color: teal;
+    display: block;
+    padding: 0px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#navbar ul li a:hover{
+    color: greenyellow;
+    background-color: grey;
+
+}
+
+
+#home{
+    margin: 200px 83px;
+    padding: 20px 20px;
+}
+#home::before{
+    content: "";
+    background:url(/static/img/ashman-background.jpg) no-repeat center center/cover ;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#home h1{
+    color: rgba(18, 219, 68, 0.829);
+    /* text-align: center; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#home p{
+    color: teal;
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhai 2', cursive;
+
+    /* font-family: 'Bree Serif', serif; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin: 0px 50px; */
+}
+.welcome{
+    font-size: 3.2rem;
+    padding: 12px;
+    margin: 0px -12px;
+
+}
+#home .welcome{
+    color:teal;
+}
+#home .typing{
+    color:greenyellow;
+}
+
+
+
+/* Project-Section */
+
+
+#project{
+    /* overflow: hidden; */
+    position: absolute;
+    height: 20%;
+    width: 30%;
+}
+#project figure div{
+    /* width: 20%; */
+    float: right;
+}
+#project figure img{
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    float: left;
+}
+#project figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 7s slidy infinite;
+}
+@keyframes slidy{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: -100%;
+    }
+}
+
+
+.slider1 p{
+    z-index: 10000;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    width: 17%;
+    padding:100px ;
+    color: white;
+    font-family: 'Lato';
+}
+.slider2 p{
+    z-index: 10000;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    width: 17%;
+    padding:100px ;
+    color: white;
+    font-family: 'Lato';
+}
+
+
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}  
+
+
+
+#home div{
+    color:white;
+    cursor: pointer;
+    position: absolute;
+    padding: 5px 8px;
+    /* border: 2px solid white ; */
+    background-color: rgb(128, 96, 96);
+    margin: -9px;
+    font-size: 1rem;
+    border-radius: 10px;
+    
+}   
+#home .btn:hover{
+    border: 2px solid greenyellow ;
+    color: greenyellow;
+    /* background-color: grey; */
+}
+
+#foot{
+    background-color: black;
+    /* position: absolute;
+    height: 0px;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;     */
+} 
+#foot p{
+    position: absolute;
+    left: 10px;
+    bottom: -50px;
+}
+
+#foot span{
+    position: absolute;
+    right: 15px;
+    bottom: -31px;
+}
+ 
+
+
+
+/* Tis Was for slider */
+/* h1{
+    text-align: center;
+} */
+.cell{
+    display:inline-block;
+    width: 33%;
+    height: 400px;
+    margin: 0 15px;
+    border: 3px solid #f1c40f;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.cell img{
+    width: 100%;
+    height: 400px;
+    object-fit:fill;
+}
+
+
+h2{
+    text-align: center;
+}
+.cell-1{
+    display:inline-block;
+    width: 33%;
+    height: 400px;
+    margin: 0 15px;
+    border: 3px solid #f1c40f;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.cell-1 img{
+    width: 100%;
+    height: 400px;
+    object-fit:fill;
+}

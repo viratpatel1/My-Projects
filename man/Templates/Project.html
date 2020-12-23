@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="new.css">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+        <title>Project</title>
+    </head>
+
+
+    <body>
+        <h1>Wedding shoot</h1>
+        <div class="main-carousel" data-flickity>
+            <div class="cell">
+                <!-- <h2>Slider 1</h2> -->
+                <img src="/static/img/hidding.jpg" alt="">
+            </div>
+            <div class="cell">
+                <!-- <h2>Slider 2</h2> -->
+                <img src="/static/img/seeing-him.jpg" alt="">
+            </div>
+            <div class="cell">
+                <!-- <h2>Slider 3</h2> -->
+                <img src="/static/img/wedd-1.jpg" alt="">
+            </div>
+            <div class="cell">
+                <!-- <h2>Slider 4</h2> -->
+                <img src="/static/img/wedd-2.jpg" alt="">
+
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <h2>Event shoot</h2>
+        <div class="second-carousel" data-flickity>
+            <div class="cell-1">
+                <!-- <h2>Slider 1</h2> -->
+                <img src="/static/img/event-1.jpg" alt="">
+            </div>
+            <div class="cell-1">
+                <!-- <h2>Slider 2</h2> -->
+                <img src="/static/img/event-2.jpg" alt="">
+            </div>
+            <div class="cell-1">
+                <!-- <h2>Slider 3</h2> -->
+                <img src="/static/img/event.jpg" alt="">
+            </div>
+            <div class="cell-1">
+                <!-- <h2>Slider 4</h2> -->
+                <img src="/static/img/girl.jpg" alt="">
+
+            </div>
+
+        </div>
+
+
+
+
+     
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>        <script src="typing.js"></script> -->
+        <script>
+
+            $('.main-carousel').flickity({
+                // options
+                cellAlign: 'left',
+                wrapAround:true,
+                freeScroll:true
+                //contain: true
+            });
+        </script>
+
+    </body>
+
+
+</html>
