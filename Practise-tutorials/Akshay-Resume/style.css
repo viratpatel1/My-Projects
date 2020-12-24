@@ -368,7 +368,10 @@ img{
     top: 20px;
     right: 30px;
  }
-
+ .footer .name span a{
+    text-decoration:none;
+    font-size:bold
+}
 @media (max-width:1050px){
     .banner-side-img .about h1{
         position: absolute;
@@ -383,6 +386,21 @@ img{
         right: 7%;
         top: 27%;
         border-radius: 10px;
+    }
+    .detail{
+        position: relative;
+        /* border: 2px solid red; */
+        background: white;
+        width: 98%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;    
+        top: 40px;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        /* z-index: -1; */
+        /* margin: 20px; */
     }
     
     .deep-detail .work h3{
@@ -551,6 +569,22 @@ img{
         text-decoration: none;
         border-radius: 50%;
       }
+      .detail{
+        position: relative;
+        /* border: 2px solid red; */
+        background: white;
+        width: 98%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;    
+        top: 40px;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        /* z-index: -1; */
+        /* margin: 20px; */
+    }
+    
  }
  @media(max-width:550px){
     .nav{
@@ -587,7 +621,7 @@ img{
         display: none;
     }
     
-    .btn{
+    /* .btn{
     position: relative;
     top: 1px;
     margin-right: 32px;
@@ -598,7 +632,7 @@ img{
     cursor: pointer;
     text-align: center;
     /* display: none; */
-    /* transition: left 0.4s ease; */
+    /* transition: left 0.4s ease; 
 }
     .btn span {
         position: relative;
@@ -607,17 +641,31 @@ img{
         left: -8px;
         font-size: 20px;
         line-height: 40px;
-}
+} */
     .banner-side-img .about h1{
         position: absolute;
-        top: 70%;
+        top: 48%;
         /* border: 2px solid red; */
-        font-size: 15px;
-        left: 29%;
+        font-size: 20px;
+        left: 20%;
     }
+    .detail{
+        position: relative;
+        /* border: 2px solid red; */
+        background: white;
+        width: 97%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;    
+        top: 40px;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+    
     .follow{
         position: absolute;
-        bottom: 60px;
+        bottom:32%;
         left: 27%;
     }
     .fa {
@@ -802,12 +850,17 @@ img{
         left: 30px;
         font-size: 12px;
 
-     }.footer .name span{
+     }
+     .footer .name span{
         position: relative;
         top: 20px;
         right: 30px;
         font-size: 12px;
      }
+     .footer .name span a{
+        text-decoration:none;
+        font-size:bold
+    }
  }
  @media (max-width:400px){
     .nav{
@@ -820,11 +873,44 @@ img{
         z-index: 1;
         /* border: 2px solid red; */
     }
+    .detail{
+        position: relative;
+        /*border: 2px solid red;*/
+        background: white;
+        width: 98%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;    
+        top: 40px;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        /* z-index: -1; */
+        /* margin: 20px; */
+    }
+    .deep-detail{
+        background: rgb(209, 211, 212);
+        width: 103%;
+        height: 220vh;
+        /* border: 2px solid red; */
+    
+    }
+    .quote{
+    position: relative;
+    width: 103.5%;
+    height: 50vh;
+    /* border: 2px solid red; */
+    /* background: rgb(20, 32, 206); */
+    background: rgb(105, 33, 173);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
     
     .res{
         position: absolute;
         width: 100%;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         justify-content: center;
         text-align: center;
         line-height: 40px;
@@ -843,6 +929,12 @@ img{
     [id^=btn]:checked + .res{
         display: block;
     }
+    .talk{
+        /* border: 2px solid red; */
+        width: 103%;
+        height: 100vh;
+        background: rgb(243, 238, 238);
+    }
     .talk .talk-2{
         position: relative;
         left: 35px;
@@ -856,22 +948,38 @@ img{
         line-height: 60px;
         font-size: 25px;
     }
-    .footer p{
+    .footer {
+    display: flex;
+    position: relative;
+    left: 0;
+    bottom: 0%;
+    width: 103%;
+    height: 10vh;
+    background-color: rgb(199, 210, 214);
+    text-align: center;
+    justify-content: space-between;
+ }
+     .footer p{
+         
         position: relative;
-        top: 11px;
-        left: 40px;
-        height: 13px    ;
-        width: 98%;
-        font-size: 12px;
-        /* border: 2px solid red; */
+        top: 30px;
+        /*left: 40px;*/
+        /*height: 13px    ;*/
+        /*width: 95%;*/
+        /*font-size: 12px;*/
+        /* border: 2px solid red;*/
 
      }.footer .name span{
         position: relative;
-        display: inline-flex;
-        top: 30px;
-        right: 130%;
-        width: 144%;
-        border: 2px solid red;
-        font-size: 12px;
+        /*display: inline-flex;*/
+        top: 26px;
+        /*right: 130%;*/
+        /*width: 144%;*/
+        /*border: 2px solid red;*/
+        /*font-size: 12px;*/
+     } 
+     .footer .name span a{
+         text-decoration:none;
+         font-size:bold
      }
  }
